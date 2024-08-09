@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+#road {
+    width: 1000px;
+    height: 1000px;
+}
+ 
+#car {
+    position: absolute;
+    left: 70px;
+    top: 830px;
+    transform: rotate(30deg);
+}
+
+@keyframes car {
+
+    0% {
+    left: 70px;
+    top: 830px;
+    transform: rotate(30deg);
+    }
+
+    10% {
+    left: 150px;
+    top: 830px;
+    transform: rotate(0deg);   
+    }
+
+    12% {
+    left: 650px;
+    top: 830px;
+    transform: rotate(7deg); 
+    }
+
+    19%{
+    left: 750px;
+    top: 830px;
+    transform: rotate(-20deg);
+    }
+
+    22% {
+    left: 770px;
+    top: 830px;
+    transform: rotate(-30deg);  
+    }
+
+    24% {
+    left: 800px;
+    top: 830px;
+    transform: rotate(-45deg);
+    }
+
+    25% {
+    left: 800px;
+    top: 780px;
+    transform: rotate(-90deg);       
+    }
+
+    30% {
+    left: 800px;
+    top: 350px;
+    transform: rotate(-90deg);
+    }
+
+    35% {
+    left: 800px;
+    top: 250px;
+    transform: rotate(-90deg);  
+    }
+    
+    40% {
+    left: 800px;
+    top: 150px;
+    transform: rotate(-120deg); 
+    }
+
+    45% {
+    left: 800px;
+    top: 90px;
+    transform: rotate(-150deg); 
+    }
+
+    47% {
+    left: 800px;
+    top: 85px;
+    transform: rotate(-170deg);
+    }
+
+    50% {
+    left: 800px;
+    top: 80px;
+    transform: rotate(-180deg);
+    }
+
+    68% {
+    left: 350px;
+    top: 80px;
+    transform: rotate(-180deg); 
+    }
+
+    72% {
+    left: 150px;
+    top: 80px;
+    transform: rotate(-230deg); 
+    }
+
+    75% {
+    left: 70px;
+    top: 80px;
+    transform: rotate(-270deg);  
+    }
+
+    90% {
+    left: 70px;
+    top: 700px;
+    transform: rotate(-270deg); 
+    }
+
+    95% {
+    left: 70px;
+    top: 790px;
+    transform: rotate(-320deg);   
+    }
+
+    98% {
+    left: 70px;
+    top: 810px;
+    transform: rotate(-340deg);   
+    }
+
+    100% {
+    left: 70px;
+    top: 830px;
+    transform: rotate(-360deg); 
+    }
+}
+
+#car {
+    animation-name: car;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+}
+
+
